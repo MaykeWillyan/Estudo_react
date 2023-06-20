@@ -1,25 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import HelloWorld from './components/HelloWorld'; //importando componente
+function App() { //criando codigo js
 
-function App() {
-  return (
+  const name = 'mayke'
+  const url = 'https://fakeimg.pl/600x400/'
+
+  return ( 
+    //codigo html 
+    //{para coisas em js no html}
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <p> Olá, {name}</p>
+      <img src={url} alt='nagas'/>
+      
+      <HelloWorld/>
     </div>
-  );
+  )
 }
 
 export default App;
