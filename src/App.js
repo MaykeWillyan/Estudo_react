@@ -10,6 +10,8 @@ function App()
     //codigo html 
     //{para coisas em js no html}
     <div className="App">
+      <h1>shalom</h1>
+      <HelloWorld/>
       <SayMyName nome = 'Mikas'/>
       <SayMyName nome = 'lucas'/>
       <Pessoa nome = 'Mikas' idade = '18' profissao = 'fudido' foto = 'https://placehold.co/600x400'/>
