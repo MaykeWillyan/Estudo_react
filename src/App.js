@@ -1,18 +1,18 @@
 import './App.css';
 import HelloWorld from './components/HelloWorld'; //importando componente
-function App() { //criando codigo js
+import SayMyName from './components/SayMyName';
+import Pessoa from './components/Pessoa';
 
-  const name = 'mayke'
-  const url = 'https://fakeimg.pl/600x400/'
+function App()
+ { //criando codigo js
 
-  return ( 
+  return (
     //codigo html 
     //{para coisas em js no html}
     <div className="App">
-      <p> Olá, {name}</p>
-      <img src={url} alt='nagas'/>
-      
-      <HelloWorld/>
+      <SayMyName nome = 'Mikas'/>
+      <SayMyName nome = 'lucas'/>
+      <Pessoa nome = 'Mikas' idade = '18' profissao = 'fudido' foto = 'https://placehold.co/600x400'/>
     </div>
   )
 }
