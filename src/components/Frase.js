@@ -1,4 +1,4 @@
-import styles from './Frase.module.css' //importante o css especifico
+import styles from './Frase.module.css' //importando css especifico
 
 function Frase()
 {
